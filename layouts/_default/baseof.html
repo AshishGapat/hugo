@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/style.css" />
+<style>
+    a {
+  font-family: Futura;
+  color: #707070;
+  background: none;
+}
+
+a :hover{
+  text-decoration: underline;
+}
+
+</style></head>
+    <body>      
+        <div id="content">
+        {{- block "main" . }}{{- end }}
+        </div>
+        
+    </body>
+</html>
